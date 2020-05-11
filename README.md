@@ -7,6 +7,7 @@ workflow for steps taken to generate readcount data
         - adapters were trimmed
         - quality trimmed at Q20
         - and a min length of 40 bp
+    - Reads were then inspected with fastqc (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and multiqc (https://multiqc.info/)
 2. Filtering of Reads
     - This was done with Kraken2 https://ccb.jhu.edu/software/kraken2/
         - A kraken database was created using all refseq genomes for bacteria, archea, and viruses, the human genome, Univec, and Quercus Rubra.
